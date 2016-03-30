@@ -12,6 +12,7 @@ var nowPlaying = function () {
 		divhtml += '<b>Artist: </b>' + musicInfo['artist'] + '<br>';
 		//divhtml += '<br><b>Station: </b>' + musicInfo['stationName'] + '</p>';
 		pianobardiv.html(divhtml);
+		console.log("Current Song: " + musicInfo['title']);
 	});
 }
 $(document).ready(function() {
